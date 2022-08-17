@@ -5,5 +5,5 @@ in {
     hello
     xtris
   ;
-  json = <github>;
+  json = pkgs.writeFile "json" (builtins.readFile <github>);
 }
