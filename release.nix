@@ -1,8 +1,5 @@
 let
   pkgs = import <nixpkgs> {};
 in {
-  inherit (pkgs)
-    hello
-    xtris
-  ;
+  inherit (pkgs) hello;
 }
