@@ -5,4 +5,5 @@ in {
     hello
     xtris
   ;
+  json = <github>;
 }
