@@ -1,4 +1,5 @@
 let
   pkgs = import <nixpkgs> {};
-in
-  pkgs.hello
+in {
+  inherit (pkgs) hello;
+}
